@@ -99,6 +99,10 @@ helm upgrade --reset-values grafana bitnami/grafana
 ```
 
 
+```bash
+helm dependency build 
+```
+
 ## Create, package and install own helm charts
 
 ```bash
